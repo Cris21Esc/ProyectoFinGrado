@@ -1,5 +1,6 @@
 <script setup>
 import barraMenu from './components/menu.vue'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { ref } from 'vue'
 </script>
 
