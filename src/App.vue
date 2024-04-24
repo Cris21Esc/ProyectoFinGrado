@@ -6,7 +6,7 @@ import { ref } from 'vue'
 
 <template>
   <header>      
-     <barraMenu titulo="Menú Principal" :links="['inicio','listar','combate']"/>    
+     <barraMenu titulo="Menú Principal" :links="['inicio','listar','pokedex']"/>    
   </header>
   
   <main>   

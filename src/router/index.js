@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import paginaInicio from "@/paginas/paginaInicio.vue";
 import paginaListar from "@/paginas/paginaListar.vue";
-import paginaCombate from "@/paginas/paginaCombate.vue";
+import paginaPokedex from "@/paginas/paginaPokedex.vue";
 
 
 const router = createRouter({
@@ -15,9 +15,9 @@ const router = createRouter({
             name:'listar',
             component: paginaListar,
         },
-        {   path: '/combate', 
-            name:'combate',
-            component: paginaCombate,
+        {   path: '/pokedex', 
+            name:'pokedex',
+            component: paginaPokedex,
         },
         {
             path: '/:pathMatch(.*)*',
