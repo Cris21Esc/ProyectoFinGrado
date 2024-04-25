@@ -30,7 +30,7 @@ onMounted(() => {
           <div class="row">
             <div class="pokecarta col-xl-2 col-lg-3 col-md-4 col-sm-6 mb-3" v-for="poke in pokemon">
               <div class="face front">
-                <img :src="'/src/assets/imgs/cartas/' + poke.num_pokedex + '.jpg'">
+                <img :src="'/src/assets/imgs/cartas/' + poke.num_pokedex + '.jpg'" loading="lazy">
               </div>
               <div class="face back">
               </div>
